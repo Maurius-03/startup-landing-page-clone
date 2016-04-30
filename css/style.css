@@ -1,18 +1,109 @@
-body {
-	background-color: LightGray;
+html {
+  	box-sizing: border-box;
+  	vertical-align: baseline;
+
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body{
+	 font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 div {
-	border: 1px solid Chocolate;
+/* 	border: 1px solid Chocolate; */
 }
+
 /*	Navigation Section */
+
 .top-navigation {
 	background-color: #fff;
 }
 .top-navigation > .content {
-	width: 970px;
 	height: 70px;
-	margin: 0 auto;
+	padding: 0px 15px;  	
+	width: 970px; 	
+  	margin: 0 auto;
+
 }
-img {
-	margin: 2px;
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 1.5rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links > .active{
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 1rem;
+}
+
+.top-navigation .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+img.logo {
+	height: 70px;
+	margin-left: -400px;
+}
+
+/* Let's do the main section */
+body {
+	color: white;
+	text-align: center;	
+}
+.text {
+	margin: 10em auto;
+}
+.introduction {
+	background: url('/Users/Dragonfly/Desktop/Thinkful/github/startup-landing-page-clone/images/first-background.jpg');
+ 	background-size: cover;
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+ 	 background-position: center bottom;
+ 	 background-repeat: no-repeat;
+	height: 45.938rem;
+	background-position: center-bottom;
+	background-position-x: 50%;
+	background-position-y: 100%;
+	overflow: auto;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3125rem;
+}
+
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+	
+}
+button{ 
+	width: 9.688rem;
+	border-color: #f15a29;
+	text-shadow: none;
+	background-color:#f15a29;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
