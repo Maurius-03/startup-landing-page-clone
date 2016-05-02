@@ -63,7 +63,6 @@ img.logo {
 
 /* Let's do the main section */
 body {
-	color: white;
 	text-align: center;	
 }
 .text {
@@ -78,6 +77,7 @@ body {
  	 background-size: cover;
  	 background-position: center bottom;
  	 background-repeat: no-repeat;
+ 	 color: white;
 	height: 45.938rem;
 	background-position: center-bottom;
 	background-position-x: 50%;
@@ -125,4 +125,19 @@ button:hover {
 	display: flex;
 	justify-content: center;
 	margin: ;
+}
+.cases{
+	color: black;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.cases .devices {
+	width: 33.33333%;
+	display: inline-block;
+	/*styles to assist with debugging*/
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
