@@ -111,14 +111,12 @@ button:hover {
 	cursor: pointer;
 }
 .devices{
-	width: 33.333333%;
+	width: 20%;
 	display: inline-block;
 	height: 5em	;
 	/* styles to assist with debugging */
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 4em;
-
 
 }
 .images{
@@ -132,16 +130,48 @@ button:hover {
 	display: flex;
 	justify-content: center;
 }
+.in-between{
+	margin-top: 3em;
+}
 
 .cases .devices {
-	width: 33.33333%;
+	width: 20%;
 	display: inline-block;
 	/*styles to assist with debugging*/
-	border: 1px solid black;
 	box-sizing: border-box;
 	height: 100%;
 }
 
 .devices img{
-	width: 170px;
+	width: 33%;
 }
+
+/*Footer*/
+
+footer {
+
+}
+
+.social {
+	text-align: center;
+}
+
+}
+hr{
+	width: 70%;
+}
+ul.fa-stack.icons {
+	height: auto;
+	width: 11rem;
+	list-style-type: none;
+	margin: 0 auto;
+	padding-left: 0;
+}
+.icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin-left: 0;
+}
+
